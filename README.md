@@ -3,20 +3,20 @@
 
 RAGr@m is a lightweight, interactive Retrieval-Augmented Generation (RAG) application built using Streamlit and powered by **LLaMA 3** through **LangChain** and **Groq API**. It performs live web search using **Tavily** to provide up-to-date, contextually grounded answers.
 
-## 🚀 Features
+## Features
 
 -  **Real-Time Web Search** using Tavily API  
 -  **Language Understanding** powered by LLaMA 3 via Groq  
 -  **Retrieval-Augmented Generation (RAG)** pipeline  
 -  **Source Transparency** — shows content used to answer  
 
-## 📦 Dependencies
+## Dependencies
 
 ```bash
 pip install streamlit langchain langchain-groq python-dotenv
 
 ```
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in your project root with the following content:
 
@@ -25,7 +25,7 @@ GROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
 ```
 
-## 🧭 How It Works
+## How It Works
 
 1. User inputs a query in the Streamlit app.
 2. Tavily performs a live web search and returns top results.
