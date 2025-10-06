@@ -23,7 +23,7 @@ st.markdown(
 )
 
 
-llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
+llm = ChatGroq(groq_api_key=groq_api_key, model_name="openai/gpt-oss-120b")
 
 # template format
 prompt = ChatPromptTemplate.from_template(
