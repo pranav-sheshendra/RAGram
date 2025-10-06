@@ -6,7 +6,7 @@ RAGr@m is a lightweight, interactive Retrieval-Augmented Generation (RAG) applic
 ## Features
 
 -  **Real-Time Web Search** using Tavily API  
--  **Language Understanding** powered by LLaMA 3 via Groq  
+-  **Language Understanding** powered by LLaMA 3 using Groq  
 -  **Retrieval-Augmented Generation (RAG)** pipeline  
 -  **Source Transparency** — shows content used to answer  
 
@@ -33,7 +33,5 @@ TAVILY_API_KEY=your_tavily_api_key
 4. The LLM generates a concise and accurate answer.
 5. Both the answer and source content are displayed.
 
-## 📄 License
 
-This project is open-source and free to use under the MIT License.
 
