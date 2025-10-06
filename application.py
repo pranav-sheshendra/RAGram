@@ -12,15 +12,9 @@ load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 
-st.markdown(
-    """
-    <div style='text-align: center;'>
-        <h1 style='color: orange;'>🔱 RAGr@m</h1>
-        <h4 style='color: blue;'>an ♾️ RAG frame</h4>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+st.image("anahata.png", width=150)
+st.markdown("<h1 style='color: orange; text-align: center;'>🔱 RAGr@m</h1>", unsafe_allow_html=True)
+st.markdown("<h4 style='color: red; text-align: center;'>an ♾️ RAG frame</h4>", unsafe_allow_html=True)
 
 
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="openai/gpt-oss-120b")
