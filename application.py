@@ -12,7 +12,7 @@ load_dotenv()
 groq_api_key = os.getenv("GROQ_API_KEY")
 os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 
-st.image("anahata.png", width=150)
+
 st.markdown("<h1 style='color: orange; text-align: center;'>🔱 RAGr@m</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='color: red; text-align: center;'>an ♾️ RAG frame</h4>", unsafe_allow_html=True)
 
