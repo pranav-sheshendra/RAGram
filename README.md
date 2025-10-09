@@ -1,7 +1,8 @@
 
 # RAGr@m - A Web-Connected RAG Framework
-
 RAGr@m is a lightweight, interactive Retrieval-Augmented Generation (RAG) application built using Streamlit and powered by **LLaMA 3** through **LangChain** and **Groq API**. It performs live web search using **Tavily** to provide up-to-date, contextually grounded answers.
+
+ **Live Link: ragram.streamlit.app**
 
 ## Features
 
